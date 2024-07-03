@@ -1,0 +1,79 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  /* transform: translateX(30px); */
+  font-size: 16px;
+  width: 150px;
+  border: solid black 1px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  /* transform: translateX(-30px); */
+  font-size: 16px;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+select {
+  margin: 3px;
+}
+
+#sourceLanguage {
+  transform: translateX(60px);
+  float: right;
+}
+
+#textToTranslate {
+  background-image: linear-gradient(to right, blue , lightseagreen);
+  color: white;
+  border: none;
+  transform: translateX(60px);
+  float: right;
+}
+
+#targetLanguage {
+  /* margin-bottom: 10px; */
+  transform: translateX(-60px);
+}
+
+#translatedText {
+  background-image: linear-gradient(to right, red , orange);
+  color: white;
+  border: none;
+  transform: translateX(-60px);
+}
+
+button {
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+#inputMessage {
+  border-radius: 10px;
+  width: 220px;
+}

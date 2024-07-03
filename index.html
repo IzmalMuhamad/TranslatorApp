@@ -1,0 +1,40 @@
+<!-- refer to this slides for instruction, copy and paste the link in search bar: https://docs.google.com/presentation/d/1uKOjrH9VFBNkjSNStVHwwksRpjnCwhlJdfExmW121D0/edit?usp=sharing -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Translator App</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Simple Translator App</h1>
+  <img src="translator-man.png" alt="" height="250px">
+  <!-- trying to make it like a chat conversation but for translator app -->
+  <div>
+    <select id="sourceLanguage">
+      <option value="Malay">Ali - Malay</option>
+      <option value="English">John - English</option>
+    </select>
+    <br>
+    <input type="text" id="textToTranslate" readonly>
+  </div>
+  <div>
+    <select id="targetLanguage">
+      <option value="Malay">Nadirah - Malay</option>
+      <option value="English">Sarah - English</option>
+    </select>
+    <br>
+    <input type="text" id="translatedText" value="" readonly>
+  </div>
+  <div>
+    <input type="text" id="inputMessage" placeholder="Type your text here">
+    <button onclick="translateText()">&#128269</button>
+  </div>
+  <!-- <p id="translatedText"></p> -->
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
